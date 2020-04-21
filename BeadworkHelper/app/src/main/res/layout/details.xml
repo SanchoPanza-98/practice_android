@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/updateInfoAboutWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="UPDATE" />
+
+        <TextView
+            android:id="@+id/detailNameWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="НАЗВАНИЕ" />
+
+        <TextView
+            android:id="@+id/detailStateWork"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="СОСТОЯНИЕ" />
+
+        <ImageView
+            android:id="@+id/detailPictureWork"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            app:srcCompat="@drawable/ic_launcher_background" />
+
+        <Button
+            android:id="@+id/openScheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ОТКРЫТЬ СХЕМУ" />
+
+        <TextView
+            android:id="@+id/materialsView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="МАТЕРИАЛЫ" />
+
+        <ListView
+            android:id="@+id/listMaterials"
+            android:layout_width="match_parent"
+            android:layout_height="422dp" />
+
+    </LinearLayout>
+</ScrollView>

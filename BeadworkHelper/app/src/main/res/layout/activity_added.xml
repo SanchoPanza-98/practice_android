@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nameForm"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="ДОБАВЛЕНИЕ НОВОЙ РАБОТЫ" />
+
+    <EditText
+        android:id="@+id/nameWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Название работы" />
+
+    <TextView
+        android:id="@+id/selectionPicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Выбор изображение для работы" />
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/selectPicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="ВЫБРАТЬ ИЗОБРАЖЕНИЕ" />
+
+    <TextView
+        android:id="@+id/schemeForWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Схема для выполнения" />
+
+    <EditText
+        android:id="@+id/enterSchemeLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Вставьте ссылку на сайт со схемой " />
+
+    <TextView
+        android:id="@+id/stateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Состояние" />
+
+    <Spinner
+        android:id="@+id/selectStateWork"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/addMaterialView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ДОБАВИТЬ" />
+
+    <TextView
+        android:id="@+id/textDebug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отладка" />
+
+</LinearLayout>

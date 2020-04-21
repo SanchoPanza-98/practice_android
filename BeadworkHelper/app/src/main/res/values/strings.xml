@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BeadworkHelper</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="action_save">Сохранить</string>
+    <string name="action_delete">Удалить</string>
+
+    <string name="gender_unknown">Неизвестно</string>
+    <string name="gender_male">Кот</string>
+    <string name="gender_female">Кошка</string>
+    <string-array name="array_gender_options">
+        <item>@string/gender_female</item>
+        <item>@string/gender_male</item>
+        <item>@string/gender_unknown</item>
+    </string-array>
+
+</resources>
